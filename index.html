@@ -1,6 +1,74 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfterSuccess | GAMES</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+    <link rel="manifest" href="img/fav/site.webmanifest">
+    <link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
+    <div class="container">
+
+        <div class="side-nav" id="js_SideNav">
+            <div class="side-nav__top">
+                <div class="close-btn button" onclick="CloseNav()"><h1>&times;</h1></div>
+            </div>
+
+            <div class="side-nav__menu">
+                <a href="https://aftersuccess.pro/home"><h3>Home</h3></a>
+                <a href="https://aftersuccess.pro/services" target="_blank"><h3>Services</h3></a>
+                <a href="https://aftersuccess.pro/articles" target="_blank"><h3>Articles</h3></a>
+                <a href="https://aftersuccess.pro/contact" target="_blank"><h3>Contact</h3></a>
+            </div>
+
+            <div class="side-nav__home button">
+                <a href="https://aftersuccess.pro/home"></a>
+            </div>
+
+        </div>
+
+        <div class="side-nav__background" id="js_SideNavBackground" onclick="CloseNav()">
+        </div>
+
+        <div class="topbar">
+            <div class="home-btn img button">
+                <a href="https://aftersuccess.pro/home"></a>
+            </div>
+            <div class="menu-btn img button" onclick="OpenNav()"></div>
+        </div>
+
+        <div class="contents">
+            <div class="panel">
+                <div class="panel-color"></div>
+                <div class="panel-txt">
+                    <h1>texto 1 texto</h1>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-color"></div>
+                <div class="panel-txt">
+                    <h1>texto 2 texto</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+
 </body>
+
 </html>
